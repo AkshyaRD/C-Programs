@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main()
+{
+	int a;
+	for(i=0;i<=4;i++)
+	{
+		scanf("%d",&a);	
+		
+	})
+	scanf("%d",&a);
+	int x[5]={2,10,15,17,21};
+	if(a>=0 && a<=4)
+	{
+	printf("%d",x[a]);	
+	}
+	else
+	{	printf("Enter a number between 0 to 4");
+	}
+	//printf("%d",x[2]); //2.
+	return 0;
+}
+
+
+
+#include <stdio.h>
+int main()
+{
+	int a,y,i,j;
+	int arr[5];
+	for(i=0;i<=4;i++)
+	{
+		printf("Enter a number");
+		scanf("%d",&arr[i]);
+	}
+	for (j=0;j<=4;j++)
+	{
+	printf("%d",arr[j]);	
+	}
+	
+}
